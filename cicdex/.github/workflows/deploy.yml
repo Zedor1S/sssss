@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  my_container:
+    image: test
+    container_name: loving_tharp
+    volumes:
+      - /cd workflow:/Script
+    command: ["/workflow/script.sh"]
+    restart: always
+    depends_on:
+    
