@@ -4,7 +4,7 @@ services:
     image: test
     container_name: loving_tharp
     volumes:
-      - /cd workflow:/Script
+      - /c/Users/yuram/OneDrive/Рабочий стол/Script:/workflow
     command: ["/workflow/script.sh"]
     restart: always
     depends_on:
